@@ -1,0 +1,10 @@
+[
+  { "city": "New York",      "country": "US", "condition": "Sunny",  "temp_c": 25, "humidity": 40, "wind_kph": 12 },
+  { "city": "London",        "country": "GB", "condition": "Cloudy", "temp_c": 15, "humidity": 72, "wind_kph": 18 },
+  { "city": "Tokyo",         "country": "JP", "condition": "Rain",   "temp_c": 18, "humidity": 85, "wind_kph":  8 },
+  { "city": "San Francisco", "country": "US", "condition": "Foggy",  "temp_c": 14, "humidity": 78, "wind_kph": 22 },
+  { "city": "Paris",         "country": "FR", "condition": "Sunny",  "temp_c": 22, "humidity": 45, "wind_kph": 10 },
+  { "city": "Sydney",        "country": "AU", "condition": "Windy",  "temp_c": 20, "humidity": 55, "wind_kph": 35 },
+  { "city": "Toronto",       "country": "CA", "condition": "Snow",   "temp_c": -3, "humidity": 68, "wind_kph": 15 },
+  { "city": "Berlin",        "country": "DE", "condition": "Cloudy", "temp_c": 12, "humidity": 60, "wind_kph": 14 }
+]
