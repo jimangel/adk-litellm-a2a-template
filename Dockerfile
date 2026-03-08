@@ -13,13 +13,6 @@ USER agentuser
 ENV PATH="/home/agentuser/.local/bin:$PATH"
 
 ENV PORT=8080
-ENV ADK_MODE=api
 EXPOSE ${PORT}
 
-# ADK_MODE=api  → REST API server (default, for deployment + curl testing)
-# ADK_MODE=web  → Web UI (for local dev/debug)
-CMD if [ "$ADK_MODE" = "web" ]; then \
-      adk web --port=${PORT} --host=0.0.0.0 "/app"; \
-    else \
-      adk api_server --port=${PORT} --host=0.0.0.0 "/app"; \
-    fi
+CMD uvicorn a2a_app:app --host=0.0.0.0 --port=${PORT}
